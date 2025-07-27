@@ -1,0 +1,50 @@
+[
+  {
+    "content": "API call patterns and optimization opportunities - examine StockAPI module",
+    "status": "completed",
+    "priority": "high",
+    "id": "analyze-api-patterns"
+  },
+  {
+    "content": "Data processing and storage performance - examine StockData module with SwiftData",
+    "status": "completed",
+    "priority": "high",
+    "id": "analyze-data-storage"
+  },
+  {
+    "content": "UI rendering and SwiftUI performance - examine main Stocks app views",
+    "status": "completed",
+    "priority": "high",
+    "id": "analyze-ui-performance"
+  },
+  {
+    "content": "Memory usage patterns and potential leaks - check retention cycles and memory management",
+    "status": "completed",
+    "priority": "high",
+    "id": "analyze-memory-patterns"
+  },
+  {
+    "content": "Async/await usage and concurrency patterns - examine concurrent operations",
+    "status": "completed",
+    "priority": "high",
+    "id": "analyze-concurrency"
+  },
+  {
+    "content": "Database query optimization (SwiftData) - examine query patterns and indexing",
+    "status": "completed",
+    "priority": "medium",
+    "id": "analyze-database-queries"
+  },
+  {
+    "content": "Network request batching and caching - examine API optimization strategies",
+    "status": "completed",
+    "priority": "medium",
+    "id": "analyze-network-caching"
+  },
+  {
+    "content": "View update cycles and unnecessary re-renders - examine SwiftUI state management",
+    "status": "completed",
+    "priority": "medium",
+    "id": "analyze-view-updates"
+  }
+]

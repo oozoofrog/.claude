@@ -1,0 +1,26 @@
+[
+  {
+    "content": "모든 SuperClaude 명령어 파일을 한글로 번역",
+    "status": "completed",
+    "priority": "high",
+    "id": "localize-1"
+  },
+  {
+    "content": "각 명령어 파일의 구조와 내용 분석",
+    "status": "completed",
+    "priority": "medium",
+    "id": "localize-2"
+  },
+  {
+    "content": "한글 번역 일관성 및 품질 확인",
+    "status": "completed",
+    "priority": "medium",
+    "id": "localize-3"
+  },
+  {
+    "content": "번역된 명령어 파일들 저장 및 검증",
+    "status": "completed",
+    "priority": "high",
+    "id": "localize-4"
+  }
+]

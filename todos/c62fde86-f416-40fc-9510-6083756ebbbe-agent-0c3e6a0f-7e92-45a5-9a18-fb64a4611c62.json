@@ -1,0 +1,38 @@
+[
+  {
+    "content": "BottomMenus 컴포넌트 기능 분석 완료",
+    "status": "completed",
+    "priority": "high",
+    "id": "analyze-bottom-menu"
+  },
+  {
+    "content": "TabView와 BottomMenus overlay 충돌 원인 파악",
+    "status": "completed",
+    "priority": "high",
+    "id": "identify-conflict"
+  },
+  {
+    "content": "TabView 환경에서 BottomMenus 기능 통합 방안 설계",
+    "status": "completed",
+    "priority": "high",
+    "id": "design-solution"
+  },
+  {
+    "content": "ContentView에서 탭별 BottomMenus 조건부 표시 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "modify-contentview"
+  },
+  {
+    "content": "BottomMenuLayout에서 차트 버튼 제거",
+    "status": "in_progress",
+    "priority": "medium",
+    "id": "update-bottom-menu-layout"
+  },
+  {
+    "content": "모든 기능이 정상 작동하는지 테스트",
+    "status": "pending",
+    "priority": "medium",
+    "id": "test-functionality"
+  }
+]

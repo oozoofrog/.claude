@@ -1,0 +1,44 @@
+[
+  {
+    "content": "SwiftUI 뷰 파일들을 검색하여 중첩 구조 확인",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "2단계 이상 중첩된 뷰 식별 및 분석",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "식별된 중첩 뷰를 별도 타입으로 분리",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "코드 개선 결과 검증",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "StockProfileRow 중첩 구조 개선",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  },
+  {
+    "content": "FlexiblePriceChartView 중첩 구조 개선",
+    "status": "completed",
+    "priority": "high",
+    "id": "6"
+  },
+  {
+    "content": "StockAdvancedPriceView 중첩 구조 개선",
+    "status": "completed",
+    "priority": "medium",
+    "id": "7"
+  }
+]

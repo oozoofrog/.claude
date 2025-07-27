@@ -1,0 +1,20 @@
+[
+  {
+    "content": "docs/DOCUMENTATION_GUIDE.md - 문서 폴더 관리 가이드 생성",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "docs/STRUCTURE.md - 현재 문서 구조 상세 정리",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "docs/HISTORY.md - 프로젝트 작업 히스토리 정리",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

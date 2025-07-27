@@ -1,0 +1,38 @@
+[
+  {
+    "content": "분석 완료: 모듈 의존성 및 아키텍처 패턴",
+    "status": "completed",
+    "priority": "high",
+    "id": "analysis-1"
+  },
+  {
+    "content": "분석 완료: 에러 처리 패턴 일관성",
+    "status": "completed",
+    "priority": "high",
+    "id": "analysis-2"
+  },
+  {
+    "content": "분석 완료: 네이밍 컨벤션 및 인터페이스 디자인",
+    "status": "completed",
+    "priority": "high",
+    "id": "analysis-3"
+  },
+  {
+    "content": "분석 완료: UI 컴포넌트 패턴 및 데이터 플로우",
+    "status": "completed",
+    "priority": "high",
+    "id": "analysis-4"
+  },
+  {
+    "content": "분석 완료: 테스트 패턴 및 구조",
+    "status": "completed",
+    "priority": "medium",
+    "id": "analysis-5"
+  },
+  {
+    "content": "종합 분석 리포트 작성 및 개선 제안 도출",
+    "status": "completed",
+    "priority": "high",
+    "id": "report-generation"
+  }
+]

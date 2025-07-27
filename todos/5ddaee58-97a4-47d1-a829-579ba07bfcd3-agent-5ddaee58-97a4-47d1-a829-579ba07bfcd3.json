@@ -1,0 +1,38 @@
+[
+  {
+    "content": "Analyze project structure and identify cleanup targets",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Check for unused imports across all Swift files",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Identify dead code and unused functions",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Review and optimize file organization",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Run SwiftLint and fix warnings",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Validate cleanup with tests",
+    "status": "pending",
+    "priority": "high",
+    "id": "6"
+  }
+]

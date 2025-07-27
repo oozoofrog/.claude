@@ -1,0 +1,62 @@
+[
+  {
+    "content": "ChartView 요구사항 분석 및 설계 문서 작성",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "ChartView 데이터 모델 및 ViewModel 설계",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "타입 충돌 문제 해결 (StockQuoteData 네임스페이스)",
+    "status": "completed",
+    "priority": "high",
+    "id": "2.1"
+  },
+  {
+    "content": "기존 UI 코드의 StockProfileData 타입 충돌 문제 해결",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "2.2"
+  },
+  {
+    "content": "포트폴리오 요약 섹션 구현 (총 손익, 손익률)",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "섹터별 비중 파이 차트 구현",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "섹터별 성과 바 차트 구현",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "상위 종목 미니 차트 그리드 구현",
+    "status": "pending",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "ChartView 테스트 코드 작성",
+    "status": "pending",
+    "priority": "high",
+    "id": "7"
+  },
+  {
+    "content": "통합 테스트 및 성능 최적화",
+    "status": "pending",
+    "priority": "medium",
+    "id": "8"
+  }
+]

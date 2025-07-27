@@ -1,0 +1,86 @@
+[
+  {
+    "content": "ChartView 요구사항 분석 및 설계 문서 작성",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "ChartView 데이터 모델 및 ViewModel 설계",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "타입 충돌 문제 해결 (StockQuoteData 네임스페이스)",
+    "status": "completed",
+    "priority": "high",
+    "id": "2.1"
+  },
+  {
+    "content": "기존 UI 코드의 StockProfileData 타입 충돌 문제 해결",
+    "status": "completed",
+    "priority": "high",
+    "id": "2.2"
+  },
+  {
+    "content": "테스트 파일 MainActor 호환성 문제 해결",
+    "status": "completed",
+    "priority": "high",
+    "id": "2.3"
+  },
+  {
+    "content": "ChartViewModel 기본 기능 테스트 통과 완료",
+    "status": "completed",
+    "priority": "high",
+    "id": "2.4"
+  },
+  {
+    "content": "ChartView 메인 컴포넌트 기본 구조 구현",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "PortfolioSummaryView 컴포넌트 구현 (총 손익, 손익률 표시)",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "SectorPieChartView 컴포넌트 구현 (섹터별 비중 파이 차트)",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "SectorPerformanceBarChartView 컴포넌트 구현 (섹터별 성과 바 차트)",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "TopStocksGridView 컴포넌트 구현 (상위 종목 미니 차트 그리드)",
+    "status": "completed",
+    "priority": "medium",
+    "id": "7"
+  },
+  {
+    "content": "ChartView 네비게이션 및 레이아웃 통합",
+    "status": "completed",
+    "priority": "high",
+    "id": "8"
+  },
+  {
+    "content": "차트 애니메이션 및 인터랙션 추가",
+    "status": "pending",
+    "priority": "medium",
+    "id": "9"
+  },
+  {
+    "content": "전체 ChartView 통합 테스트 및 성능 최적화",
+    "status": "completed",
+    "priority": "medium",
+    "id": "10"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Add loading state parameter to WeeklyPriceChartView",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create loading indicator UI for chart",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Update StockProfileRowDetailView to pass loading state",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Test loading states with different scenarios",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  }
+]

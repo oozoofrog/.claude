@@ -1,0 +1,26 @@
+[
+  {
+    "content": "차트 서비스 및 API 코드 분석",
+    "status": "completed",
+    "priority": "high",
+    "id": "troubleshoot-1"
+  },
+  {
+    "content": "차트 뷰 구현 코드 검토",
+    "status": "completed",
+    "priority": "high",
+    "id": "troubleshoot-2"
+  },
+  {
+    "content": "네트워크 요청 및 에러 로그 확인",
+    "status": "completed",
+    "priority": "high",
+    "id": "troubleshoot-3"
+  },
+  {
+    "content": "문제 원인 파악 및 해결책 제시",
+    "status": "completed",
+    "priority": "high",
+    "id": "troubleshoot-4"
+  }
+]

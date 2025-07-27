@@ -1,0 +1,44 @@
+[
+  {
+    "content": "프로젝트 파일 구조 및 범위 분석",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "코드 품질 분석 - SwiftLint 규칙 준수 및 코드 스타일",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "보안 분석 - API 키 관리 및 민감한 데이터 처리",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "성능 분석 - 메모리 사용, 캐싱, 비동기 처리",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "아키텍처 분석 - 모듈 의존성 및 설계 패턴",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "테스트 커버리지 및 품질 검증",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "종합 분석 결과 및 개선 권장사항 정리",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  }
+]

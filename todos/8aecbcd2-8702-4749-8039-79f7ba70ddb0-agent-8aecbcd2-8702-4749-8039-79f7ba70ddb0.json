@@ -1,0 +1,26 @@
+[
+  {
+    "content": "전체 프로젝트 빌드 상태 확인 및 에러 로그 수집",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "StockData 모듈 테스트 실패 원인 분석 - 샘플 데이터 및 테스트 수정 완료",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "수정된 코드로 StockData 테스트 재실행 및 검증 - 성공!",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Stocks 앱 빌드 실패 수정 - OptimizedWeeklyPriceChartView.swift 컴파일 에러",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "4"
+  }
+]

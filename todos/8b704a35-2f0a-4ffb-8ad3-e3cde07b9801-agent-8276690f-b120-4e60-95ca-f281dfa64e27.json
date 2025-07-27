@@ -1,0 +1,50 @@
+[
+  {
+    "content": "API 보안 분석 - API 키 관리, 인증, 네트워크 보안 검토",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "데이터 보안 분석 - 민감한 데이터 처리, 저장 암호화, SwiftData 보안",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "입력 검증 및 새니타이제이션 분석",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "네트워크 통신 보안 - HTTPS, 인증서 핀닝, 통신 암호화",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "인증 및 세션 관리 보안",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "인젝션 취약점 검사 - SQL, API 인젝션 등",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "정보 노출 위험 - 로그, 디버그 정보, 에러 메시지",
+    "status": "completed",
+    "priority": "medium",
+    "id": "7"
+  },
+  {
+    "content": "서드파티 의존성 보안 - 취약한 라이브러리, 패키지 검사",
+    "status": "completed",
+    "priority": "medium",
+    "id": "8"
+  }
+]

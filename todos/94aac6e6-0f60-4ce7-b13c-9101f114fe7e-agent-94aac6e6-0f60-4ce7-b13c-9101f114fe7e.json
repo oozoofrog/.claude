@@ -1,0 +1,20 @@
+[
+  {
+    "content": "현재 빌드 상태 확인 및 오류 로그 수집",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "빌드 스크립트 실행하여 구체적인 오류 메시지 확인",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "오류 원인 분석 및 해결 방안 제시",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  }
+]
