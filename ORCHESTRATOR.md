@@ -94,6 +94,11 @@ documentation:
   file_patterns: ["*.md", "*.rst", "*.txt", "docs/*", "README*", "CHANGELOG*"]
   typical_operations: [write, document, explain, translate, localize]
 
+design:
+  keywords: [wireframe, mockup, layout, UI design, interface design, visual structure, sketch, prototype]
+  file_patterns: ["*.jsx", "*.tsx", "*.vue", "*.html", "*.css", "*.scss", "components/*"]
+  typical_operations: [wireframe, design, layout, visualize, sketch, prototype]
+
 iterative:
   keywords: [improve, refine, enhance, correct, polish, fix, iterate, loop, repeatedly]
   file_patterns: ["*.*"]  # Can apply to any file type
@@ -202,6 +207,8 @@ wave-strategies:
 | "optimize performance" | complex | backend | performance persona, --think-hard, Playwright | 90% |
 | "security audit" | complex | security | security persona, --ultrathink, Sequential | 95% |
 | "write documentation" | moderate | documentation | scribe persona, --persona-scribe=en, Context7 | 95% |
+| "wireframe interface" | simple | design | frontend persona, architect persona, Magic | 85% |
+| "create wireframe" | simple | design | frontend persona, Magic, Sequential | 90% |
 | "improve iteratively" | moderate | iterative | intelligent persona, --seq, loop creation | 90% |
 | "analyze large codebase" | complex | any | --delegate --parallel-dirs, domain specialists | 95% |
 | "comprehensive audit" | complex | multi | --multi-agent --parallel-focus, specialized agents | 95% |

@@ -125,6 +125,21 @@ performance-profile: "optimization"
 
 **`/design [domain] [flags]`** - Design orchestration | Auto-Persona: Architect, Frontend | MCP: Magic, Sequential, Context7
 
+**`/wireframe $ARGUMENTS`**
+```yaml
+---
+command: "/wireframe"
+category: "Design & Visualization"
+purpose: "ASCII wireframe generation with interactive element numbering"
+wave-enabled: false
+performance-profile: "standard"
+---
+```
+- **Auto-Persona**: Frontend, Architect
+- **MCP Integration**: Magic (UI analysis), Sequential (structure analysis)
+- **Tool Orchestration**: [Read, Grep, Write, Edit]
+- **Arguments**: `@<file-path>`, `--type layout|component|screen`, `--interactive`, `--detailed`, `--<flags>`
+
 ### Meta & Orchestration Commands
 
 **`/index [query] [flags]`** - Command catalog browsing | Auto-Persona: Mentor, Analyzer | MCP: Sequential
