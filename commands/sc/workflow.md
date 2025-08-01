@@ -11,7 +11,7 @@ mcp-servers: [sequential, context7, magic]
 # /sc:workflow - Implementation Workflow Generator
 
 ## Purpose
-Analyze Product Requirements Documents (PRDs) and feature specifications to generate comprehensive, step-by-step implementation workflows with expert guidance, dependency mapping, and automated task orchestration.
+Generate comprehensive TDD and Tidy First workflows from PRD documents or feature descriptions, ensuring systematic Red → Green → Refactor cycles with proper structural/behavioral change separation.
 
 ## Usage
 ```
@@ -28,6 +28,9 @@ Analyze Product Requirements Documents (PRDs) and feature specifications to gene
 - `--risks` - Include risk assessment and mitigation strategies
 - `--parallel` - Identify parallelizable work streams
 - `--milestones` - Create milestone-based project phases
+- `--tdd` - Enable TDD workflow with Red → Green → Refactor cycles
+- `--tidy-first` - Apply Tidy First principles (structural/behavioral separation)
+- `--swift` - Apply Swift-specific development patterns and best practices
 
 ## MCP Integration Flags
 - `--c7` / `--context7` - Enable Context7 for framework patterns and best practices

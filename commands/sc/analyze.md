@@ -6,7 +6,7 @@ description: "코드 품질, 보안, 성능 및 아키텍처 분석"
 # /sc:analyze - Code Analysis
 
 ## Purpose
-Execute comprehensive code analysis across quality, security, performance, and architecture domains.
+Execute comprehensive code analysis with Swift-specific focus, emphasizing TDD compliance, Tidy First principles, and Swift best practices including Protocol-Oriented Programming and value types.
 
 ## Usage
 ```
@@ -18,13 +18,23 @@ Execute comprehensive code analysis across quality, security, performance, and a
 - `--focus` - Analysis focus area (quality, security, performance, architecture)
 - `--depth` - Analysis depth (quick, deep)
 - `--format` - Output format (text, json, report)
+- `--tdd` - Analyze TDD compliance and test coverage
+- `--tidy-first` - Analyze structural vs behavioral change separation
+- `--swift` - Apply Swift-specific analysis patterns and best practices
 
 ## Execution
-1. Discover and categorize files for analysis
-2. Apply appropriate analysis tools and techniques
-3. Generate findings with severity ratings
-4. Create actionable recommendations with priorities
-5. Present comprehensive analysis report
+1. **TDD Compliance Analysis**: Check test coverage and Red → Green → Refactor cycles
+2. **Tidy First Assessment**: Analyze structural vs behavioral change separation
+3. **Swift Best Practices**: Evaluate Protocol-Oriented Programming, value types usage
+4. **Code Quality Metrics**: Assess duplication, complexity, and maintainability
+5. **Comprehensive Reporting**: Present findings with Swift-specific recommendations
+
+## Swift-Specific Analysis Guidelines
+- **Value Types**: Prefer structs/enums over classes when possible
+- **Functional Programming**: Use map, flatMap, compactMap, ?? for optionals
+- **Protocol-Oriented**: Leverage protocols for dependency injection
+- **Error Handling**: Use Result combinators (map, flatMap, get())
+- **Async Code**: Test with XCTestExpectation or async tests
 
 ## Claude Code Integration
 - Uses Glob for systematic file discovery

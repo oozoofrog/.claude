@@ -6,7 +6,7 @@ description: "코드 품질, 성능 및 유지보수성에 대한 체계적인 �
 # /sc:improve - Code Improvement
 
 ## Purpose
-Apply systematic improvements to code quality, performance, maintainability, and best practices.
+Apply systematic improvements through Tidy First principles, separating structural changes from behavioral changes, and applying refactoring only in the Green phase of TDD cycles.
 
 ## Usage
 ```
@@ -18,13 +18,24 @@ Apply systematic improvements to code quality, performance, maintainability, and
 - `--type` - Improvement type (quality, performance, maintainability, style)
 - `--safe` - Apply only safe, low-risk improvements
 - `--preview` - Show improvements without applying them
+- `--tidy-first` - Apply Tidy First principles (structural/behavioral separation)
+- `--structural-only` - Apply only structural changes (refactoring)
+- `--behavioral-only` - Apply only behavioral changes (new functionality)
+- `--swift` - Apply Swift-specific refactoring patterns
 
 ## Execution
-1. Analyze code for improvement opportunities
-2. Identify specific improvement patterns and techniques
-3. Create improvement plan with risk assessment
-4. Apply improvements with appropriate validation
-5. Verify improvements and report changes
+1. **Tidy First Analysis**: Categorize changes as structural vs behavioral
+2. **Structural Changes**: Apply refactoring (rename, extract, move) without behavior change
+3. **Green Phase Validation**: Ensure all tests pass after structural changes
+4. **Behavioral Changes**: Apply functional improvements separately
+5. **Commit Separation**: Maintain separate commits for structural vs behavioral changes
+
+## Tidy First Refactoring Guidelines
+- **Structural Changes Only**: Rename, extract method, move code without changing behavior
+- **Test Validation**: Run full test suite after each structural change
+- **One Change at a Time**: Apply single refactoring step, then validate
+- **Clear Naming**: Use well-known refactoring patterns in commit messages
+- **Swift Best Practices**: Eliminate duplication, improve clarity, manage dependencies explicitly
 
 ## Claude Code Integration
 - Uses Read for comprehensive code analysis

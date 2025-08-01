@@ -6,7 +6,7 @@ description: "지능적인 페르소나 활성화 및 MCP 통합을 통한 기�
 # /sc:implement - Feature Implementation
 
 ## Purpose
-Implement features, components, and code functionality with intelligent expert activation and comprehensive development support.
+Implement features, components, and code functionality with TDD (Test-Driven Development) and Tidy First principles, ensuring high-quality Swift code through systematic Red → Green → Refactor cycles.
 
 ## Usage
 ```
@@ -23,12 +23,19 @@ Implement features, components, and code functionality with intelligent expert a
 - `--documentation` - Generate documentation alongside implementation
 
 ## Execution
-1. Analyze implementation requirements and detect technology context
-2. Auto-activate relevant personas (frontend, backend, security, etc.)
-3. Coordinate with MCP servers (Magic for UI, Context7 for patterns, Sequential for complex logic)
-4. Generate implementation code with best practices
-5. Apply security and quality validation
-6. Provide testing recommendations and next steps
+1. **TDD Cycle Initiation**: Write failing test for smallest behavior increment
+2. **Red Phase**: Ensure test fails with clear, descriptive failure message
+3. **Green Phase**: Implement minimum code to make test pass (no more)
+4. **Refactor Phase**: Apply Tidy First principles (structural changes only)
+5. **Commit Discipline**: Separate structural vs behavioral commits
+6. **Repeat**: Continue TDD cycle for next behavior increment
+
+## TDD Workflow Integration
+- **Test-First Approach**: Always write test before implementation
+- **Descriptive Test Names**: Use XCTest with clear naming (e.g., `testSumOfTwoPositiveNumbers_returnsCorrectResult`)
+- **Minimal Implementation**: Write only code needed to pass current test
+- **Swift Best Practices**: Use structs/enums over classes, functional chaining, Result combinators
+- **Dependency Management**: Explicit dependency injection through protocols
 
 ## Claude Code Integration
 - Uses Write/Edit/MultiEdit for code generation and modification
@@ -48,11 +55,18 @@ Implement features, components, and code functionality with intelligent expert a
 
 ## Examples
 ```
-/sc:implement user authentication system --type feature --with-tests
-/sc:implement dashboard component --type component --framework react
-/sc:implement REST API for user management --type api --safe
-/sc:implement payment processing service --type service --iterative
+/sc:implement user authentication system --type feature --tdd --swift
+/sc:implement calculator service --type service --tdd --swift
+/sc:implement data model --type model --tdd --swift
+/sc:implement network layer --type service --tdd --swift
 ```
+
+## TDD-Specific Arguments
+- `--tdd` - Enable strict TDD workflow (Red → Green → Refactor)
+- `--swift` - Apply Swift-specific best practices and patterns
+- `--tidy-first` - Follow Tidy First principles (structural/behavioral separation)
+- `--test-only` - Write tests only, no implementation
+- `--refactor-only` - Apply refactoring to existing code
 
 ## Gemini CLI Integration
 Leverage Gemini CLI for complex feature implementation:

@@ -6,7 +6,7 @@ description: "지능적인 커밋 메시지 및 브랜치 관리를 통한 Git �
 # /sc:git - Git Operations
 
 ## Purpose
-Execute Git operations with intelligent commit messages, branch management, and workflow optimization.
+Execute Git operations with TDD and Tidy First commit discipline, ensuring proper separation of structural vs behavioral changes and maintaining small, frequent commits with clear commit messages.
 
 ## Usage
 ```
@@ -19,13 +19,24 @@ Execute Git operations with intelligent commit messages, branch management, and 
 - `--smart-commit` - Generate intelligent commit messages
 - `--branch-strategy` - Apply branch naming conventions
 - `--interactive` - Interactive mode for complex operations
+- `--tdd` - Apply TDD commit discipline (tests must pass)
+- `--tidy-first` - Separate structural vs behavioral commits
+- `--structural` - Mark commit as structural change only
+- `--behavioral` - Mark commit as behavioral change only
 
 ## Execution
-1. Analyze current Git state and repository context
-2. Execute requested Git operations with validation
-3. Apply intelligent commit message generation
-4. Handle merge conflicts and branch management
-5. Provide clear feedback and next steps
+1. **Commit Discipline Check**: Verify all tests pass and build succeeds
+2. **Change Categorization**: Identify structural vs behavioral changes
+3. **Commit Message Generation**: Create clear, descriptive commit messages
+4. **Small Commit Strategy**: Maintain small, frequent commits
+5. **Validation**: Ensure Xcode build succeeds with no linter warnings
+
+## TDD Commit Guidelines
+- **All Tests Passing**: Only commit when all tests are green
+- **Build Success**: Ensure Xcode build succeeds with no SwiftLint warnings
+- **Single Logical Unit**: Each commit represents one logical change
+- **Clear Messages**: Commit messages clearly state Structural vs Behavioral
+- **Small Commits**: Favor small, frequent commits over large batches
 
 ## Claude Code Integration
 - Uses Bash for Git command execution
